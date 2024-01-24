@@ -964,7 +964,7 @@ h4{
     align-items: center; 
   }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 130px; }
 
   .info-content .name { margin-bottom: 5px; }
 
@@ -1464,7 +1464,7 @@ h4{
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 280px; }
 
   .info-content .name {
     white-space: nowrap;
