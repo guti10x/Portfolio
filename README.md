@@ -3,4 +3,4 @@ Este portfolio sirve como una muestra completa de mis habilidades, experiencia y
 
 ## Enlace
 
-Consulta el portfolio aquí: [Portfolio](https://cvdanibucket.s3.eu-west-3.amazonaws.com/Portfolio/index.html)
+Consulta el portfolio aquí:  [www.danielgutierreztorres.com](http://www.danielgutierreztorres.com/)
