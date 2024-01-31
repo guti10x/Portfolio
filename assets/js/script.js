@@ -1,5 +1,3 @@
-'use strict';
-
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
@@ -144,4 +142,40 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
 
   });
+}
+
+function idiomaChange(idioma) {
+  if (idioma.toLowerCase() === 'español') {
+    // Hacer una solicitud HEAD para verificar si el recurso existe
+    fetch('lenguages/indexES.html', { method: 'HEAD' })
+    .then(response => {
+      if (response.ok) {
+        // Si la respuesta es exitosa (código 200), redirige
+        window.location.href = 'lenguages/indexES.html';
+      } else {
+        // Si la respuesta indica que el recurso no existe, puedes manejarlo como desees
+        console.log('El recurso no existe.');
+      }
+    })
+    .catch(error => {
+      console.error(`Error al verificar el recurso: ${error}`);
+    });
+
+  } else if (idioma.toLowerCase() === 'inglés') {
+    if (window.location.href !== 'index.html') {
+      window.location.href = '../index.html';
+    }
+  }
+}
+
+function idiomaChangeConEfecto(idioma, imagen) {
+  idiomaChange(idioma); 
+
+  // Cambiar tamaño de la imagen después de la redirección
+  imagen.style.width = '42px';
+  imagen.style.height = '30px';
+
+  // Agregar sombra y transición
+  imagen.style.boxShadow = '5px 5px 10px rgba(0, 0, 0, 0.5)';
+  imagen.style.transition = 'box-shadow 0.5s ease-in-out'
 }

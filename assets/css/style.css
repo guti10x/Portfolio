@@ -99,7 +99,6 @@
 }
 
 
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -141,9 +140,6 @@ input, textarea {
 html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -278,9 +274,6 @@ article.active {
 }
 
 
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -290,9 +283,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
-
 
 
 /*-----------------------------------*\
@@ -477,9 +467,6 @@ h2.name {
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
-
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -494,7 +481,6 @@ h2.name {
 }
 
 .about-text p { margin-bottom: 15px; }
-
 
 
 /**
@@ -543,7 +529,6 @@ h2.name {
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
-
 
 
 /*-----------------------------------*\
@@ -684,9 +669,6 @@ h4{
 }
 
 
-
-
-
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
@@ -790,8 +772,6 @@ h4{
   transition: var(--transition-1);
 }
 
-.project-item > a:hover .project-img::before { background: hsla(0, 0%, 0%, 0.5); }
-
 .project-item-icon-box {
   --scale: 0.8;
 
@@ -843,7 +823,6 @@ h4{
 }
 
 
-
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -859,7 +838,6 @@ h4{
    */
 
   .clients-item { min-width: calc(33.33% - 10px); }
-
 
 
   /**
@@ -932,7 +910,6 @@ h4{
   }
 
 
-
   /**
    * #MAIN
    */
@@ -941,7 +918,6 @@ h4{
     margin-top: 60px;
     margin-bottom: 100px;
   }
-
 
 
   /**
@@ -993,7 +969,6 @@ h4{
   }
 
 
-
   /**
    * #NAVBAR
    */
@@ -1003,7 +978,6 @@ h4{
   .navbar-list { gap: 20px; }
 
   .navbar-link { --fs-8: 14px; }
-
 
 
   /**
@@ -1105,8 +1079,11 @@ h4{
 
   .clients-item { min-width: calc(33.33% - 35px); }
 
-
-
+  .changeidioma{
+    height: 23px;
+    width: 35px;
+  }
+  
   /**
    * #RESUME
    */
@@ -1124,7 +1101,6 @@ h4{
   .skills-item:not(:last-child) { margin-bottom: 25px; }
 
 
-
   /**
    * #PORTFOLIO, BLOG
    */
@@ -1134,7 +1110,6 @@ h4{
   .blog-posts-list { gap: 30px; }
 
   .blog-content { padding: 25px; }
-
 
 
   /**
@@ -1163,9 +1138,6 @@ h4{
   .form-btn ion-icon { font-size: 18px; }
 
 }
-
-
-
 
 
 /**
@@ -1198,13 +1170,11 @@ h4{
   }
 
 
-
   /**
    * NAVBAR
    */
 
   .navbar-link { --fs-8: 15px; }
-
 
 
   /**
@@ -1251,7 +1221,6 @@ h4{
   .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
 
-
   /**
    * CONTACT
    */
@@ -1264,7 +1233,6 @@ h4{
   }
   
 }
-
 
 
 /**
@@ -1305,7 +1273,6 @@ h4{
   }
 
 
-
   /**
    * MAIN 
    */
@@ -1317,7 +1284,6 @@ h4{
     width: max-content;
     margin: auto;
   }
-
 
 
   /**
@@ -1426,7 +1392,6 @@ h4{
   article { min-height: 100%; }
 
 
-
   /**
    * MAIN
    */
@@ -1445,7 +1410,6 @@ h4{
     width: 75%;
     margin: 0;
   }
-
 
 
   /**
@@ -1499,7 +1463,6 @@ h4{
   }
 
   .social-list { justify-content: center; }
-
 
 
   /**
