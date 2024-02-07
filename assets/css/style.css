@@ -296,7 +296,7 @@ main {
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 415px; }
+.sidebar.active { max-height: 444px; }
 
 .sidebar-info {
   position: relative;
@@ -929,7 +929,7 @@ h4{
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: 666px; }
 
   .sidebar-info { gap: 25px; }
 
@@ -978,6 +978,12 @@ h4{
   .navbar-list { gap: 20px; }
 
   .navbar-link { --fs-8: 14px; }
+
+  .changeidioma{
+    height: 16px;
+    width: 28px;
+    margin: 5px;
+  }
 
 
   /**
@@ -1080,7 +1086,7 @@ h4{
   .clients-item { min-width: calc(33.33% - 35px); }
 
   .changeidioma{
-    height: 23px;
+    height: 20px;
     width: 35px;
   }
   
@@ -1175,6 +1181,11 @@ h4{
    */
 
   .navbar-link { --fs-8: 15px; }
+  .changeidioma{
+    height: 16px;
+    width: 28px;
+    margin: 5px;
+  }
 
 
   /**
@@ -1308,7 +1319,11 @@ h4{
   }
 
   .navbar-link { font-weight: var(--fw-500); }
-
+  .changeidioma{
+    height: 16px;
+    width: 28px;
+    margin: 5px;
+  }
 
 
   /**
