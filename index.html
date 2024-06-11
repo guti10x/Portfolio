@@ -222,10 +222,10 @@
             <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
-          <img src="assets/images/iconos/spn.png" alt="idioma español" is="es" height="20px" width="35px" style="margin-right: 8px; margin-left: 17px;" class="changeidioma" onclick="idiomaChangeConEfecto('Español', this)">
-
-          <img src="assets/images/iconos/en.png" alt="idioma inglés" is="en" height="20px" width="35px" class="changeidioma" onclick="idiomaChangeConEfecto('Inglés', this)">
-
+          <img src="assets/images/iconos/spn.png" alt="idioma español" is="es" class="changeidioma" onclick="idiomaChangeConEfecto('Español', this)">
+        
+          <img src="assets/images/iconos/en.png" alt="idioma inglés" is="en" class="changeidioma">
+          
         </ul>
 
       </nav>
@@ -252,84 +252,161 @@
         </section>
 
 
+        <section class="service">
+          <h3 class="h3 service-title">Idiomas que hablo:</h3>
+          <div class="divlenguajes">
+            <div class="lenguajes">
+              <div class="idiomaContainer" onclick="idiomaChangeConEfecto('Español', this)">
+                <img src="../assets/images/iconos/español.png" alt="idioma español" height="45px" id="idioma1">
+                <h4>Español</h4>
+              </div>
+              <div class="idiomaContainer">
+                <img src="../assets/images/iconos/english.png" alt="idioma inglés" height="45px" id="idioma2">
+                <h4 style="margin-left: 15px;">Inglés</h4>
+              </div>
+            </div>
+          </div>
+        </section> 
+
         <!--
-          - service
+          - Skills
         -->
 
         <section class="service">
-          <h3 class="h3 service-title">Languages I speak:</h3>
-          <div class="divlenguajes">
-              <div class="lenguajes">
-               <img src="assets/images/iconos/español.png" alt="idioma español"  height="45px" id="idioma1">
-               <h4>Spanish</h4>
-               <img src="assets/images/iconos/english.png" alt="idioma inglés" height="45px" id="idioma2">
-               <h4>English</h4>
-              </div>
-          </div>
-        </section>
-
-        
-        <section class="service">
           <h3 class="h3 service-title">My skills</h3>
-            <div class="divlenguajes">
-                <h4 class="h4 timeline-item-title">Languages:</h4>
-                <div class="lenguajes">
-                  <img src="assets/images/iconos/python.jpg" alt="Python" class="lenguaje">
-                  <img src="assets/images/iconos/c.jpeg" alt="c++" class="lenguaje">
-                  <img src="assets/images/iconos/java.jpeg" alt="Java" class="lenguaje">
-                  <img src="assets/images/iconos/html.jpg" alt="HTML" class="lenguaje">
-                  <img src="assets/images/iconos/css.jpg" alt="CSS" class="lenguaje">
-                  <img src="assets/images/iconos/js.jpg" alt="Java Script" class="lenguaje">
-                  <img src="assets/images/iconos/php.jpg" alt="PHP" class="lenguaje">
-                  <img src="assets/images/iconos/rlen.jpg" alt="R" class="lenguaje">
-                  <img src="assets/images/iconos/typescript.jpg" alt="Typescript" class="lenguaje">
-                </div>   
-              <h4 class="h4 timeline-item-title">Other lenguages:</h4>
-                <div class="lenguajes">
-                  <img src="assets/images/iconos/ros.jpg" alt="ROS" class="lenguaje">
-                  <img src="assets/images/iconos/arduino.jpg" alt="Arduino" class="lenguaje">
-                  <img src="assets/images/iconos/dart.jpg" alt="Dart" class="lenguaje">
-                  <img src="assets/images/iconos/angular.jpg" alt="Angular" class="lenguaje">
-                  <!--<img src="assets/images/iconos/react.jpg" alt="React" class="lenguaje">-->
-                </div>
-              <h4 class="h4 timeline-item-title">Editors:</h4>
-                <div class="lenguajes">
-                  <img src="assets/images/iconos/vs.jpg" alt="Visual Studio" class="lenguaje">
-                  <img src="assets/images/iconos/ecl.jpg" alt="Eclipse" class="lenguaje">
-                  <img src="assets/images/iconos/clion.jpg" alt="Clion" class="lenguaje">
-                  <img src="assets/images/iconos/jupiter.jpg" alt="Jupyter lab" class="lenguaje">
-                  <img src="assets/images/iconos/android.jpg" alt="Android Studio" class="lenguaje">
-                  <img src="assets/images/iconos/rStudio.jpg" alt="RStudio" class="lenguaje">
-                </div>
-    
-                <h4 class="h4 timeline-item-title">Database:</h4>
-                  <div class="lenguajes">
-                    <img src="assets/images/iconos/mdb.jpg" alt="Mariadb" class="lenguaje">
-                    <img src="assets/images/iconos/mysql.jpg" alt="Mysql" class="lenguaje">
-                    <img src="assets/images/iconos/sqlite.jpg" alt="Sqlite" class="lenguaje">
-                    <img src="assets/images/iconos/postgresql.jpg" alt="Postgresql" class="lenguaje">
-                  </div>
-
-                <h4 class="h4 timeline-item-title">Hosting:</h4>
-                  <div class="lenguajes">
-                    <img src="assets/images/iconos/aws.jpg" alt="AWS" class="lenguaje">
-                    <img src="assets/images/iconos/fb.jpg" alt="Firebase" class="lenguaje">
-                    <img src="assets/images/iconos/docker.jpg" alt="Docker" class="lenguaje">
-                  </div>
-
-                <h4 class="h4 timeline-item-title">Other Tools:</h4>
-                <div class="lenguajes">
-                  <img src="assets/images/iconos/git.jpg" alt="Git" class="lenguaje">
-                  <img src="assets/images/iconos/Trello.jpg" alt="Trello" class="lenguaje">
-                  <img src="assets/images/iconos/rapidminer.jpg" alt="Rapidminer" class="lenguaje">
-                  <img src="assets/images/iconos/ph.jpg" alt="Photoshop" class="lenguaje">
-                  <img src="assets/images/iconos/solid.jpg" alt="Solidworks" class="lenguaje">
-                  <img src="assets/images/iconos/sv.jpg" alt="Sony Vegas" class="lenguaje">
-                  <img src="assets/images/iconos/ae.jpg" alt="After Effects" class="lenguaje">
-                  <img src="assets/images/iconos/cura.jpg" alt="Cura" class="lenguaje">
-                  <!--<img src="assets/images/iconos/mongo.jpg" alt="Mongodb" class="lenguaje">-->
-                </div>
-            </div> 
+          <div class="divlenguajes">
+        
+            <h4 class="h4 timeline-item-title">Languages:</h4>
+            <div class="lenguajes">
+              <a href="https://www.python.org/" target="_blank">
+                <img src="assets/images/iconos/python.jpg" alt="Python" class="lenguaje">
+              </a>
+              <a href="https://isocpp.org/" target="_blank">
+                <img src="assets/images/iconos/c.jpeg" alt="C++" class="lenguaje">
+              </a>
+              <a href="https://www.java.com/" target="_blank">
+                <img src="assets/images/iconos/java.jpeg" alt="Java" class="lenguaje">
+              </a>
+              <a href="https://html.spec.whatwg.org/" target="_blank">
+                <img src="assets/images/iconos/html.jpg" alt="HTML" class="lenguaje">
+              </a>
+              <a href="https://www.w3.org/Style/CSS/" target="_blank">
+                <img src="assets/images/iconos/css.jpg" alt="CSS" class="lenguaje">
+              </a>
+              <a href="https://www.javascript.com/" target="_blank">
+                <img src="assets/images/iconos/js.jpg" alt="JavaScript" class="lenguaje">
+              </a>
+              <a href="https://www.php.net/" target="_blank">
+                <img src="assets/images/iconos/php.jpg" alt="PHP" class="lenguaje">
+              </a>
+              <a href="https://www.r-project.org/" target="_blank">
+                <img src="assets/images/iconos/rlen.jpg" alt="R" class="lenguaje">
+              </a>
+              <a href="https://www.typescriptlang.org/" target="_blank">
+                <img src="assets/images/iconos/typescript.jpg" alt="TypeScript" class="lenguaje">
+              </a>
+            </div>
+            <h4 class="h4 timeline-item-title">Other lenguages:</h4>
+            <div class="lenguajes">
+              <a href="https://www.ros.org/" target="_blank">
+                <img src="assets/images/iconos/ros.jpg" alt="ROS" class="lenguaje">
+              </a>
+              <a href="https://www.arduino.cc/" target="_blank">
+                <img src="assets/images/iconos/arduino.jpg" alt="Arduino" class="lenguaje">
+              </a>
+              <a href="https://dart.dev/" target="_blank">
+                <img src="assets/images/iconos/dart.jpg" alt="Dart" class="lenguaje">
+              </a>
+              <a href="https://angular.io/" target="_blank">
+                <img src="assets/images/iconos/angular.jpg" alt="Angular" class="lenguaje">
+              </a>
+              <!--<a href="https://reactjs.org/" target="_blank">
+                        <img src="assets/images/iconos/react.jpg" alt="React" class="lenguaje">
+              </a>-->
+            </div>
+        
+            <h4 class="h4 timeline-item-title">Editors:</h4>
+            <div class="lenguajes">
+              <a href="https://visualstudio.microsoft.com/" target="_blank">
+                <img src="assets/images/iconos/vs.jpg" alt="Visual Studio" class="lenguaje">
+              </a>
+              <a href="https://www.eclipse.org/" target="_blank">
+                <img src="assets/images/iconos/ecl.jpg" alt="Eclipse" class="lenguaje">
+              </a>
+              <a href="https://www.jetbrains.com/clion/" target="_blank">
+                <img src="assets/images/iconos/clion.jpg" alt="Clion" class="lenguaje">
+              </a>
+              <a href="https://jupyter.org/" target="_blank">
+                <img src="assets/images/iconos/jupiter.jpg" alt="Jupyter lab" class="lenguaje">
+              </a>
+              <a href="https://developer.android.com/studio" target="_blank">
+                <img src="assets/images/iconos/android.jpg" alt="Android Studio" class="lenguaje">
+              </a>
+              <a href="https://posit.co/" target="_blank">
+                <img src="assets/images/iconos/rStudio.jpg" alt="RStudio" class="lenguaje">
+              </a>
+            </div>
+        
+            <h4 class="h4 timeline-item-title">Database:</h4>
+            <div class="lenguajes">
+              <a href="https://mariadb.org/" target="_blank">
+                <img src="assets/images/iconos/mdb.jpg" alt="Mariadb" class="lenguaje">
+              </a>
+              <a href="https://www.mysql.com/" target="_blank">
+                <img src="assets/images/iconos/mysql.jpg" alt="Mysql" class="lenguaje">
+              </a>
+              <a href="https://www.sqlite.org/" target="_blank">
+                <img src="assets/images/iconos/sqlite.jpg" alt="Sqlite" class="lenguaje">
+              </a>
+              <a href="https://www.postgresql.org/" target="_blank">
+                <img src="assets/images/iconos/postgresql.jpg" alt="Postgresql" class="lenguaje">
+              </a>
+              <!--<a href="https://reactjs.org/" target="_blank">
+                        <img src="assets/images/iconos/react.jpg" alt="React" class="lenguaje">
+              </a>-->
+            </div>
+        
+            <h4 class="h4 timeline-item-title">Hosting:</h4>
+            <div class="lenguajes">
+              <a href="https://aws.amazon.com/" target="_blank">
+                <img src="assets/images/iconos/aws.jpg" alt="AWS" class="lenguaje">
+              </a>
+              <a href="https://firebase.google.com/" target="_blank">
+                <img src="assets/images/iconos/fb.jpg" alt="Firebase" class="lenguaje">
+              </a>
+              <a href="https://www.docker.com/" target="_blank">
+                <img src="assets/images/iconos/docker.jpg" alt="Docker" class="lenguaje">
+              </a>
+            </div>
+        
+            <h4 class="h4 timeline-item-title">Other Tools:</h4>
+            <div class="lenguajes">
+              <a href="https://git-scm.com/" target="_blank">
+                <img src="assets/images/iconos/git.jpg" alt="Git" class="lenguaje">
+              </a>
+              <a href="https://trello.com/" target="_blank">
+                <img src="assets/images/iconos/Trello.jpg" alt="Trello" class="lenguaje">
+              </a>
+              <a href="https://rapidminer.com/" target="_blank">
+                <img src="assets/images/iconos/rapidminer.jpg" alt="Rapidminer" class="lenguaje">
+              </a>
+              <a href="https://www.adobe.com/products/photoshop.html" target="_blank">
+                <img src="assets/images/iconos/ph.jpg" alt="Photoshop" class="lenguaje">
+              </a>
+              <a href="https://www.solidworks.com/" target="_blank">
+                <img src="assets/images/iconos/solid.jpg" alt="Solidworks" class="lenguaje">
+              </a>
+              <a href="https://www.vegascreativesoftware.com/" target="_blank">
+                <img src="assets/images/iconos/sv.jpg" alt="Sony Vegas" class="lenguaje">
+              </a>
+              <a href="https://www.adobe.com/products/aftereffects.html" target="_blank">
+                <img src="assets/images/iconos/ae.jpg" alt="After Effects" class="lenguaje">
+              </a>
+              <a href="https://ultimaker.com/software/ultimaker-cura" target="_blank">
+                <img src="assets/images/iconos/cura.jpg" alt="Cura" class="lenguaje">
+              </a>
+            </div>
+          </div>
         </section>
 
         <section class="service">
@@ -711,137 +788,143 @@
           </div>
 
           <ul class="project-list">
-
+          
             <li class="project-item  active" data-filter-item data-category="applications">
               <a href="https://github.com/guti10x/Fridgedeck.git">
-
+          
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
+          
                   <img src="./assets/images/portfolio/pfridgedeck.png" alt="Fridgedeck logo" loading="lazy">
                 </figure>
-
+          
                 <h3 class="project-title">Fridgedeck</h3>
-
+          
                 <p class="project-category">Multiuser home automation application for refrigerator management.</p>
-
+          
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="https://github.com/guti10x/DraftGeniousIQ2_APP">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio/DraftGeniousIQ2.png" alt="DraftGeniousIQ2" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DraftGeniousIQ2</h3>
-
-                <p class="project-category">Personal Assistant for Strategy Generation and Player Recommendations in Fantasy League</p>
-                
-              </a>
-            </li>
-
+          
             <li class="project-item  active" data-filter-item data-category="applications">
               <a href="https://github.com/guti10x/dashware_FUEM.git">
-
+          
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/portfolio/dashware_FUEM.png" alt="Dashwere FUEM" loading="lazy">
+          
+                  <img src="../assets/images/portfolio/dashware_FUEM.png" alt="Dashwere FUEM" loading="lazy">
                 </figure>
-
+          
                 <h3 class="project-title">Dashboard formula student car</h3>
-
+          
                 <p class="project-category">Interface for the Dashboard Screen of the Formula Student Car FUEM XVI</p>
-
+          
               </a>
             </li>
-            
+          
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/guti10x/PadelWebClub.git">
+          
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <video width="320" height="240" loop muted autoplay controlslist="nodownload nodownload">
+                    <source src="../assets/images/portfolio/DraftGeniousIQ2.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                  </video>
+                </figure>
+          
+                <h3 class="project-title">DraftGeniousIQ2</h3>
+          
+                <p class="project-category">Personal Assistant for Strategy Generation and Player Recommendations in Fantasy
+                  League</p>
+          
+              </a>
+            </li>
+          
             <li class="project-item  active" data-filter-item data-category="applications">
               <a href="https://github.com/guti10x/Mdentertainment.git">
-
+          
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
+          
                   <img src="./assets/images/portfolio/mdentertainment.png" alt="metaspark" loading="lazy">
                 </figure>
-
+          
                 <h3 class="project-title">Mdentertainmnets</h3>
-
+          
                 <p class="project-category">Multiplatform application for event management.</p>
-
+          
               </a>
             </li>
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="https://github.com/guti10x/Plataforma_movil.git">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/portfolio/plataforma.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Mobile platform</h3>
-
-                <p class="project-category">Remote mobile platform  control.</p>
-
-              </a>
-            </li>
-
+          
             <li class="project-item  active" data-filter-item data-category="applications">
               <a href="https://github.com/guti10x/DraftGeniusIQ.git">
-
+          
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
+          
                   <img src="./assets/images/portfolio/DraftGeniousIQ.png" alt="DraftGeniousIQ" loading="lazy">
                 </figure>
-
+          
                 <h3 class="project-title">DraftGeniousIQ</h3>
-
-                <p class="project-category">Personal assistant for generating strategies and recommendations on transfers and player line-ups.</p>
-
+          
+                <p class="project-category">Personal assistant for generating strategies and recommendations on transfers and
+                  player line-ups.</p>
+          
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="https://github.com/guti10x/PadelWebClub.git">
-
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/guti10x/Plataforma_movil.git">
+          
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/portfolio/padelWebClub.png" alt="fundo" loading="lazy">
+          
+                  <img src="./assets/images/portfolio/plataforma.png" alt="metaspark" loading="lazy">
                 </figure>
-
-                <h3 class="project-title">Padel  web club</h3>
-
-                <p class="project-category">Website for the management, organization, and administration of a paddle tennis club.</p>
-
+          
+                <h3 class="project-title">Mobile platform</h3>
+          
+                <p class="project-category">Remote mobile platform control.</p>
+          
               </a>
             </li>
-
           </ul>
-
-        </section>
-
-      </article>
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/guti10x/PadelWebClub.git">
+          
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <video width="320" height="240" loop muted autoplay controlslist="nodownload nodownload">
+                    <source src="../assets/images/portfolio/padelWebClub.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                  </video>
+                </figure>
+          
+                <h3 class="project-title">Padel web club</h3>
+          
+                <p class="project-category">Website for the management, organization, and administration of a paddle tennis club.
+                </p>
+              </a>
+            </li>
+          </ul>
+          </section>
+          </article>
+          </main>
 
 
       <!--
