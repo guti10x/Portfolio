@@ -1511,6 +1511,35 @@ h4{
 
 }
 
+.timeline-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-right: 14px;
+}
+
+.timeline-text-wrapper {
+  flex: 1;
+}
+
+.row-line{
+  display: flex;
+  flex-direction: row;
+}
+
+.col-line{
+  display: flex;
+  flex-direction: column;
+}
+
 /* Ocultar Mostrar info extra experiencia profesional */
 details summary {
   cursor: pointer;
